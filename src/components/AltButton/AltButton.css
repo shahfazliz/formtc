@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+.alt-button {
+    border-radius: 30px;
+    padding: 20px 60px;
+
+    font-family: 'Roboto-Regular';
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.white-alt-button {
+    color: #D4B254;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D4B254;
+}
+
+.white-alt-button:hover {
+    color: #FFFFFF;
+    background: #C8A74B 0% 0% no-repeat padding-box;
+}
+
+.transparent-alt-button {
+    color: #FFFFFF;
+    background: 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+}
+
+.transparent-alt-button:hover {
+    color: #222222;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}

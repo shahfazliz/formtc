@@ -1,0 +1,24 @@
+.customer-gallery-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.customer-gallery-section > div {
+    height: 480px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.images-in-row {
+    display: flex;
+}
+
+.images-in-row > img {
+    margin: 5px;
+}
+

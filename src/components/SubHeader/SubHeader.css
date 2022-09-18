@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+.sub-header {
+    color: #D4B254;
+    font-family: 'Roboto-Regular';
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}

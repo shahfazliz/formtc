@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+.text > p {
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #777777;
+    opacity: 0.9;
+    line-height: 28px;
+    white-space: pre-wrap;
+}
+
+.text p.top-spaced {
+    padding-top: 16px;
+}

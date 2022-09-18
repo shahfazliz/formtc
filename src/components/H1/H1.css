@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Helvetica-Bold';
+    src: url('../../fonts/Helvetica-Bold/Helvetica-Bold-Font.ttf');
+}
+
+.header-one {
+    font-family: 'Helvetica-Bold';
+    font-size: 52px;
+    text-align: left;
+    letter-spacing: -1px;
+    color: #222222;
+    opacity: 0.9;
+    line-height: 58px;
+}

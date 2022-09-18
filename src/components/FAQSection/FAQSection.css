@@ -1,0 +1,11 @@
+.faq-section {
+    background-color: #EEEEEE;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-section {
+    text-align: center;
+}

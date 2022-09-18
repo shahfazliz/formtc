@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+.navigation {
+    border-bottom: solid 1px #FFFFFF;
+    height: 80px;
+    margin: 0 auto;
+    width: 1300px;
+    padding-bottom: 30px;
+    
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation > div {
+    display: flex;
+    align-items: center;
+}
+
+.navigation > div > div > a {
+    color: #FFFFFF;
+    font-family: 'Roboto-Regular';
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
