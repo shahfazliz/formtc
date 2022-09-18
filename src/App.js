@@ -68,8 +68,12 @@ function App() {
         <FAQSection />
         <CustomerGallerySection />
         <FooterSection />
+      </main>
 
-        {/* <MainButton style={{ display: 'block', margin: '10px'}}>main button style</MainButton>
+      {/* 
+        // Basic Design and Style Guide
+         
+        <MainButton style={{ display: 'block', margin: '10px'}}>main button style</MainButton>
 
         <AltButton style={{ display: 'block', margin: '10px' }} transparent={ false }>alt button</AltButton>
 
@@ -90,8 +94,9 @@ function App() {
 
         <Quote style={ styles.normal }>
           “Blockquote my first contact I have received a very high level of customer service and advice with my kitchen plans. Ben responded very quickly to all of my emails and delivery of the kitchen was as planned.”
-        </Quote> */}
-      </main>
+        </Quote>
+        
+      */}
     </div>
   );
 }
