@@ -8,7 +8,7 @@ import MainButton from '../MainButton';
 import './AboutUsSection.css';
 
 function AboutUsSection({ style }) {
-    return <section className='about-us-section'>
+    return <section id='about-us' className='about-us-section'>
         <div style={{ gridColumn: '1 / 2', backgroundImage: `url(${ backgroundImage })` }}>
             &nbsp;
         </div>

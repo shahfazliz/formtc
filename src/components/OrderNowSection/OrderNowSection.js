@@ -7,7 +7,8 @@ import SubHeader from '../SubHeader';
 import './OrderNowSection.css';
 
 function OrderNowSection({ style }) {
-    return <section 
+    return <section
+        id='order-now'
         className='order-now-section' 
         style={{ 
             ...style, 

@@ -51,9 +51,9 @@ function FooterSection({ style }) {
             </div>
             <div>
                 <H4 style={ styles.centerHeader }>Follow</H4>
-                <img src={ facebookIcon } alt='facebook icon' />
-                <img src={ twitterIcon } alt='twitter icon' />
-                <img src={ instagramIcon } alt='instagram icon' />
+                <a href='https://www.facebook.com/'><img src={ facebookIcon } alt='facebook icon' /></a>
+                <a href='https://www.twitter.com/'><img src={ twitterIcon } alt='twitter icon' /></a>
+                <a href='https://www.instagram.com/'><img src={ instagramIcon } alt='instagram icon' /></a>
             </div>
         </div>
         <div className='bottom'>

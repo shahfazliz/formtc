@@ -4,7 +4,7 @@ import './CustomerGallerySection.css';
 import MainButton from '../MainButton';
 
 function CustomerGallerySection({ style }) {
-    return <section className='customer-gallery-section' style={ style }>
+    return <section id='gallery' className='customer-gallery-section' style={ style }>
         <div>
             <H3>Customer Gallery</H3>
             <div className='images-in-row' style={{ marginTop: '40px' }}>

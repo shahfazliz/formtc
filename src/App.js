@@ -47,15 +47,15 @@ function App() {
           </div>
           
           <div>
-            <a style={{ marginLeft: '4vw', marginRight: '30px' }} href='#'>shop</a>
-            <a href='#'>plan my kitchen</a>
+            <a style={{ marginLeft: '4vw', marginRight: '30px' }} href='#order-now'>shop</a>
+            <a href='#order-now'>plan my kitchen</a>
           </div>
         </div>
         
         <div>
           <div>
-            <a href='#'>about us</a>
-            <a style={{ marginLeft: '30px', marginRight: '1vw' }} href='#'>gallery</a>
+            <a href='#about-us'>about us</a>
+            <a style={{ marginLeft: '30px', marginRight: '1vw' }} href='#gallery'>gallery</a>
           </div>
           <MyOrderButton />
         </div>
