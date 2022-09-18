@@ -35,12 +35,7 @@
     text-transform: uppercase;
 }
 
-.black-background.hidden {
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-.black-background.visible {
+.black-background {
     height: 80px;
     width: 100%;
     padding-bottom: 30px;
@@ -52,6 +47,13 @@
     opacity: 0.5;
 
     background-color: #000000;
+    opacity: 0;
+    transition: opacity 1s;
+}
 
+.black-background.visible {
+    background-color: #000000;
+    
+    opacity: 0.5;
     transition: opacity 1s;
 }

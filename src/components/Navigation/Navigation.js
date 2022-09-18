@@ -24,7 +24,7 @@ function Navigation({
     });
 
     return <React.Fragment>
-        <div className={ `black-background ${scrolling ? 'visible' : 'hidden'}` }>&nbsp;</div>
+        <div className={ `black-background ${scrolling ? 'visible' : ''}` }>&nbsp;</div>
         <nav style={ style } className='navigation'>
             { divChildren }
         </nav>
